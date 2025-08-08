@@ -4,8 +4,17 @@
 By the end of this lab, you will:
 - Understand how to run a local MCP (Model Context Protocol) server.
 - Test your Python environment and IDE setup using a simple client.
-- Interact with the MCP server using a full-featured client as per the lab instructions.
+- Integrate MCP tools with an **Azure AI Foundry Agent** for intelligent decision-making.
 
+
+
+## What This Lab Is About
+This lab demonstrates:
+- Running an MCP server that provides inventory and utility tools.
+- Using a simple client to confirm your setup.
+- Using a full-featured client that connects MCP tools to an **Azure AI Foundry Agent**, enabling the agent to call these tools automatically.
+
+---
 
 
 ## Files in This Lab
