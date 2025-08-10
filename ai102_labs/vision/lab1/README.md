@@ -43,13 +43,16 @@ Expected output:
 - **Caption**: "A busy street with cars and people" (confidence: ~95%)
 - **Tags**: ["taxi", "car", "person", "dog"]
 - **Objects**:
-  - car (confidence: ~98%)
-  - person (confidence: ~92%)
+  - car (confidence: 79.70%)
+  - taxi (confidence: 79.30%)
+  - person (confidence: 79.10%)
+  - dog (confidence: 69.70%)
 
 ![Sample image with object boundary boxes](images/objects.jpg)
 
 - **People**:
-  - Bounding box coordinates with confidence > 20%
+  - {'x': 121, 'y': 55, 'w': 77, 'h': 199} (confidence: 92.99%)
+  - {'x': 349, 'y': 131, 'w': 10, 'h': 17} (confidence: 30.09%)
 
 ![Sample image with people bundary boxes.](images/people.jpg)
   --
@@ -63,7 +66,7 @@ Expected output:
   - People detection
 - **Visual Features**: CAPTION, TAGS, OBJECTS, PEOPLE.
 
-> **Note**: Some regions may not support `CAPTION` and `DENSE_CAPTIONS`. Check the https://learn.microsoft.com/azure/ai-services/computer-vision/overview before deploying your resource.
+> **Note**: Some regions may not support `CAPTION` and `DENSE_CAPTIONS`. Check the https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/table before deploying your resource.
 
 
 ---
@@ -72,6 +75,5 @@ Expected output:
 - https://microsoftlearning.github.io/mslearn-ai-vision/Instructions/Labs/01-analyze-images.html
 - https://learn.microsoft.com/azure/ai-services/computer-vision/overview
 
-- https://learn.microsoft.com/python/api/overview/azure/ai-vision-imageanalysis-readme
 
 
