@@ -2,8 +2,8 @@
 
 ## Overview
 
-This repository contains the converted labs from the Microsoft AI-102T00 course: *Designing and Implementing a Microsoft Azure AI Solution*.  
-The original labs were designed for online PowerShell environments. This project adapts them for local development using Python in Visual Studio Code (VS Code).
+This repository contains the converted labs from the Microsoft course AI-102T00-A: *Develop AI solutions in Azure*.  
+The original labs were designed for online PowerShell environments. This project adapts them for local development using Python in Visual Studio Code (VS Code) or PyCharm.
 
 ## Key Features
 
