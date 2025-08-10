@@ -46,13 +46,12 @@ Expected output:
   - car (confidence: ~98%)
   - person (confidence: ~92%)
 
-![Sample objects image](images/objects.jpg)
-![An image with object boundary boxes.](./images/objects.jpg)
+![Sample image with object boundary boxes](images/objects.jpg)
 
 - **People**:
   - Bounding box coordinates with confidence > 20%
 
-![Sample perople image](images/people.jpg)
+![Sample image with people bundary boxes.](images/people.jpg)
   --
 
 ## Key Concepts
@@ -74,3 +73,4 @@ Expected output:
 - https://learn.microsoft.com/azure/ai-services/computer-vision/overview
 
 - https://learn.microsoft.com/python/api/overview/azure/ai-vision-imageanalysis-readme
+
