@@ -47,6 +47,7 @@ Expected output:
   - person (confidence: ~92%)
 
 ![Sample objects image](images/objects.jpg)
+![An image with object boundary boxes.](./images/objects.jpg)
 
 - **People**:
   - Bounding box coordinates with confidence > 20%
@@ -71,4 +72,5 @@ Expected output:
 ## References
 - https://microsoftlearning.github.io/mslearn-ai-vision/Instructions/Labs/01-analyze-images.html
 - https://learn.microsoft.com/azure/ai-services/computer-vision/overview
+
 - https://learn.microsoft.com/python/api/overview/azure/ai-vision-imageanalysis-readme
