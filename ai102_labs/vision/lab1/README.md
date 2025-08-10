@@ -41,7 +41,7 @@ images/street.jpg
 
 Expected output:
 - **Caption**: "A busy street with cars and people" (confidence: ~95%)
-- **Tags**: ["street", "car", "person", "road"]
+- **Tags**: ["taxi", "car", "person", "dog"]
 - **Objects**:
   - car (confidence: ~98%)
   - person (confidence: ~92%)
@@ -73,4 +73,5 @@ Expected output:
 - https://learn.microsoft.com/azure/ai-services/computer-vision/overview
 
 - https://learn.microsoft.com/python/api/overview/azure/ai-vision-imageanalysis-readme
+
 
