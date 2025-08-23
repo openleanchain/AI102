@@ -72,12 +72,14 @@ This lab demonstrates how to:
 ---
 
 ## Example Usage
-![Sample street image](images/qna.png)
+![Example](images/qna.png)
 ### Sample question:
-- **What is Microsoft Learn?**
+- **What is a learning path?**
+
 Expected output:
-- **Answer**: Microsoft Learn is an online platform that provides interactive learning paths and modules for Microsoft technologies.
-- **Confidence**: 0.85 (example value)
+
+- **Answer**: Learning paths are collections of training modules that are organized around specific roles (like developer, architect, or system admin) or technologies (like Azure Web Apps, Power BI, or Xamarin.Forms). When you finish a learning path, you've gained a new understanding of different aspects of the technology or role you're studying. You also get an achievement trophy
+- **Confidence**: 1.0 (example value)
 - **Source**: https://docs.microsoft.com/en-us/learn/support/faq
 
 ---
